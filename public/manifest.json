@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Netflix Navigator",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Browse unlimited Netflix TV Shows and Movies easily with your Keyboard Arrow Keys.",
   "icons": {
     "16": "icons/icon_16.png",
@@ -20,5 +20,10 @@
       "js": ["contentScript.js"],
       "css": ["contentScript.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{9305c2c3-14ae-497b-b27f-3f506fa82fa3}"
+    }
+  }
 }
